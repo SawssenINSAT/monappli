@@ -16,7 +16,7 @@ implements javax.servlet.Servlet {
  throws ServletException, IOException {
    response.setContentType("text/html");
    PrintWriter out = response.getWriter();
-   out.println("Projet Maven saws: Servlet Lancée");
+   out.println("Projet Maven INES: Servlet Lancée");
    out.flush();
    out.close();
     
